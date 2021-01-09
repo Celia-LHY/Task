@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        form
+        {
+            margin: 50px auto;
+            width: 700px;
+            height: 800px;
+            border: 2px solid cornflowerblue;
+
+        }
+        .field1
+        {
+            width: 650px;
+            margin: 25px;
+            line-height: 30px;
+
+        }
+        .field1 legend
+        {
+            width: 125px;
+            border: 1px solid cornflowerblue;
+            color: cornflowerblue;
+            font-weight: bold;
+            text-align: center;
+        }
+        .field1 fieldset
+        {
+            border: 1px solid cornflowerblue;
+            color: grey;
+            text-align: center;
+
+
+        }
+        .field2
+        {
+            width: 650px;
+            margin: 25px;
+            line-height: 30px;
+            text-align: center;
+        }
+        .field2 legend
+        {
+            width: 125px;
+            border: 1px solid cornflowerblue;
+            color: cornflowerblue;
+            font-weight: bold;
+            text-align: center;
+        }
+        .field2 fieldset
+        {
+            border: 1px solid cornflowerblue;
+            color: grey;
+
+
+        }
+        .field2 label
+        {
+            display: inline-block;
+            text-align: left;
+            width: 150px;
+            vertical-align: top;
+        }
+        .field2 span
+        {
+            display: inline-block;
+            text-align: right;
+            width: 200px;
+            vertical-align: top;
+            padding:0px 5px;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+<form>
+    <h3 style="color: #666666">&nbsp;&nbsp;&nbsp;&nbsp;已注册用户登录</h3>
+    <div class="field1">
+        <fieldset>
+            <legend>用户登录</legend>
+            用户名<input type="text" ><br>
+            密码 <input type="text" size="18" ><br>
+            <p align="left" style="margin-left: 185px">
+                <input type="checkbox" >记住我
+                <input type="submit" value="登录" align="center" style="background-color: lightskyblue;border:1px solid #6495ed;width:70px;height:30px" >
+            </p>
+            <p align="left" style="color: cornflowerblue">您忘记密码？</p>
+
+        </fieldset>
+
+    </div>
+    <h3 style="color: #666666">&nbsp;&nbsp;&nbsp;&nbsp;未注册创建账户</h3>
+    <div class="field2">
+        <fieldset>
+            <legend>用户注册</legend>
+            <p style="color: cornflowerblue" >
+                <strong >您的电子邮箱不会被公布出去，但是必须填写.</strong>在您注册之前请先认真阅读服务条款
+            </p>
+            <span>用户名</span><input type="text" align="center"><label>*（最多30个字符）</label><br>
+            <span>电子邮箱</span><input type="text" align="center"><label>*</label><br>
+            <span>密码</span><input type="text" align="center"><label>*（最多15个字符）</label><br>
+            <span>重复密码</span><input type="text"  align="center"><label>*</label><br>
+            <p align="left" style="margin-left: 160px">
+               同意服务条款<input type="checkbox"><label style="color: cornflowerblue;font-size: small">先看看条款？*</label>
+            </p>
+            <input type="submit" value="提交" align="center" style="background-color: lightskyblue;border:1px solid cornflowerblue;width:70px;height:30px">
+            <input type="reset" value="重置" align="center" style="background-color: lightskyblue;border:1px solid cornflowerblue;width:70px;height:30px">
+            <p style="color: cornflowerblue;font-weight: bold" align="left">
+                *在您提交您的注册信息时，我们认为你已经同意了我们的服务条款。<br>
+                *这些条款可能在未经您同意的时候进行修改。
+            </p>
+        </fieldset>
+    </div>
+
+</form>
+</body>
+</html>
